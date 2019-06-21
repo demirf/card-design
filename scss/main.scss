@@ -1,0 +1,73 @@
+@import 'normalize';
+@import 'formalize';
+
+.timeline {
+    width: 800px;
+    height: 600px;
+    background: url('https://cdn.zeplin.io/5d07a8344d2f815d74349b30/assets/FCEF7D45-D500-411F-A2EC-CEA83BEDC13F.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+        height: 350px;
+        width: 268px;
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 3px 8px 2px rgba(54, 54, 54, 0.7);
+
+        &-bgc {
+            .bgc {
+                height: 152px;
+            }
+        }
+
+        &-profile {
+
+            &-img {
+                display: flex;
+                justify-content: center;
+                margin-top: -20px;
+
+                .avatar {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+
+            &-about {
+                text-align: center;
+                font-size: 14px;
+
+                .name {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+                .detail {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+            &-links{
+                display: flex;
+                justify-content: center;
+                a{
+                    font-size: 14px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    color: gray;
+                }
+                a:hover{
+                    color: #a70000;
+                }
+            }
+        }
+
+        
+
+
+    }
+
+
+}
